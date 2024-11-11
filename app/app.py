@@ -1,8 +1,7 @@
 import reflex as rx
-from rxconfig import config
 from app.pages import *
+import app.styles.styles as styles
 
-class State(rx.State):
-    """The app state."""
-
-app = rx.App()
+app = rx.App(
+    style=styles.BASE_STYLE,
+)
