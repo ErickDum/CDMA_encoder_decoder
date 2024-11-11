@@ -21,24 +21,22 @@ To install and run the CDMA Encoder/Decoder project, follow these steps:
     ```bash
     cd CDMA_encoder_decoder
     ```
-3. **Create a virtual environment:**
-    ```bash
-    python -m venv venv
-    ```
-4. **Activate the virtual environment:**
+3. **Setup virtual environment:**
     - On Windows:
         ```bash
-        venv\Scripts\activate
+        py -3 -m venv .venv
+        .venv\\Scripts\\activate
         ```
     - On macOS and Linux:
         ```bash
-        source venv/bin/activate
+        python3 -m venv .venv
+        source .venv/bin/activate
         ```
-5. **Install the required dependencies:**
+4. **Install the required dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
-6. **Run**
+5. **Run**
     ```bash
     reflex run 
     ```
